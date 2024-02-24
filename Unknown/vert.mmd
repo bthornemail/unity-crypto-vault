@@ -1,0 +1,839 @@
+sequenceDiagram
+    participant Alice
+    participant Bob
+    participant Carol
+    participant Dave
+    participant Eve
+    participant Frank
+    participant Grace
+    participant User1
+    participant User2
+    participant User3
+    participant User4
+    participant User5
+    participant User6
+    participant User7
+
+    Alice ->> CourseNFT: Create Course
+    Note over CourseNFT: Course creation process
+    CourseNFT ->> Alice: Course Created
+
+    Alice ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> Alice: Enrolled in Course
+
+    Alice ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> Alice: Test Created
+
+    Alice ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> Alice: Test Verified
+
+    Alice ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> Alice: Task Created
+
+    Alice ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> Alice: Task Verified
+
+    Alice ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> Alice: Exam Created
+
+    Alice ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> Alice: Exam Verified
+
+    Bob ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> Bob: Enrolled in Course
+
+    Bob ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> Bob: Test Created
+
+    Bob ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> Bob: Test Verified
+
+    Bob ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> Bob: Task Created
+
+    Bob ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> Bob: Task Verified
+
+    Bob ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> Bob: Exam Created
+
+    Bob ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> Bob: Exam Verified
+
+    Carol ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> Carol: Service Registered
+
+    Carol ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> Carol: Service Booked
+
+    Carol ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> Carol: Asset Registered
+
+    Carol ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> Carol: Asset Rented
+
+    Carol ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> Carol: VertCoin Lent
+
+    Carol ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> Carol: Loan Created
+
+    Carol ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> Carol: Loan Repaid
+
+    Dave ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> Dave: Enrolled in Course
+
+    Dave ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> Dave: Test Created
+
+    Dave ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> Dave: Test Verified
+
+    Dave ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> Dave: Task Created
+
+    Dave ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> Dave: Task Verified
+
+    Dave ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> Dave: Exam Created
+
+    Dave ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> Dave: Exam Verified
+
+    Dave ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> Dave: Asset Registered
+
+    Dave ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> Dave: Asset Rented
+
+    Dave ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> Dave: Service Registered
+
+    Dave ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> Dave: Service Booked
+
+    Dave ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> Dave: VertCoin Lent
+
+    Dave ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> Dave: Loan Created
+
+    Dave ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> Dave: Loan Repaid
+
+    Eve ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> Eve: Enrolled in Course
+
+    Eve ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> Eve: Test Created
+
+    Eve ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> Eve: Test Verified
+
+    Eve ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> Eve: Task Created
+
+    Eve ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> Eve: Task Verified
+
+    Eve ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> Eve: Exam Created
+
+    Eve ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> Eve: Exam Verified
+
+    Eve ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> Eve: Asset Registered
+
+    Eve ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> Eve: Asset Rented
+
+    Eve ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> Eve: Service Registered
+
+    Eve ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> Eve: Service Booked
+
+    Eve ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> Eve: VertCoin Lent
+
+    Eve ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> Eve: Loan Created
+
+    Eve ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> Eve: Loan Repaid
+
+    Frank ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> Frank: Enrolled in Course
+
+    Frank ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> Frank: Test Created
+
+    Frank ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> Frank: Test Verified
+
+    Frank ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> Frank: Task Created
+
+    Frank ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> Frank: Task Verified
+
+    Frank ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> Frank: Exam Created
+
+    Frank ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> Frank: Exam Verified
+
+    Frank ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> Frank: Asset Registered
+
+    Frank ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> Frank: Asset Rented
+
+    Frank ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> Frank: Service Registered
+
+    Frank ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> Frank: Service Booked
+
+    Frank ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> Frank: VertCoin Lent
+
+    Frank ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> Frank: Loan Created
+
+    Frank ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> Frank: Loan Repaid
+
+    Grace ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> Grace: Enrolled in Course
+
+    Grace ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> Grace: Test Created
+
+    Grace ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> Grace: Test Verified
+
+    Grace ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> Grace: Task Created
+
+    Grace ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> Grace: Task Verified
+
+    Grace ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> Grace: Exam Created
+
+    Grace ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> Grace: Exam Verified
+
+    Grace ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> Grace: Asset Registered
+
+    Grace ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> Grace: Asset Rented
+
+    Grace ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> Grace: Service Registered
+
+    Grace ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> Grace: Service Booked
+
+    Grace ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> Grace: VertCoin Lent
+
+    Grace ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> Grace: Loan Created
+
+    Grace ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> Grace: Loan Repaid
+
+    User1 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User1: Enrolled in Course
+
+    User1 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User1: Test Created
+
+    User1 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User1: Test Verified
+
+    User1 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User1: Task Created
+
+    User1 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User1: Task Verified
+
+    User1 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User1: Exam Created
+
+    User1 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User1: Exam Verified
+
+    User1 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User1: Asset Registered
+
+    User1 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User1: Asset Rented
+
+    User1 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User1: Service Registered
+
+    User1 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User1: Service Booked
+
+    User1 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User1: VertCoin Lent
+
+    User1 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User1: Loan Created
+
+    User1 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User1: Loan Repaid
+
+    User2 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User2: Enrolled in Course
+
+    User2 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User2: Test Created
+
+    User2 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User2: Test Verified
+
+    User2 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User2: Task Created
+
+    User2 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User2: Task Verified
+
+    User2 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User2: Exam Created
+
+    User2 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User2: Exam Verified
+
+    User2 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User2: Asset Registered
+
+    User2 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User2: Asset Rented
+
+    User2 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User2: Service Registered
+
+    User2 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User2: Service Booked
+
+    User2 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User2: VertCoin Lent
+
+    User2 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User2: Loan Created
+
+    User2 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User2: Loan Repaid
+
+    User3 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User3: Enrolled in Course
+
+    User3 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User3: Test Created
+
+    User3 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User3: Test Verified
+
+    User3 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User3: Task Created
+
+    User3 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User3: Task Verified
+
+    User3 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User3: Exam Created
+
+    User3 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User3: Exam Verified
+
+    User3 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User3: Asset Registered
+
+    User3 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User3: Asset Rented
+
+    User3 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User3: Service Registered
+
+    User3 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User3: Service Booked
+
+    User3 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User3: VertCoin Lent
+
+    User3 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User3: Loan Created
+
+    User3 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User3: Loan Repaid
+
+    User4 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User4: Enrolled in Course
+
+    User4 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User4: Test Created
+
+    User4 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User4: Test Verified
+
+    User4 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User4: Task Created
+
+    User4 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User4: Task Verified
+
+    User4 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User4: Exam Created
+
+    User4 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User4: Exam Verified
+
+    User4 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User4: Asset Registered
+
+    User4 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User4: Asset Rented
+
+    User4 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User4: Service Registered
+
+    User4 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User4: Service Booked
+
+    User4 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User4: VertCoin Lent
+
+    User4 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User4: Loan Created
+
+    User4 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User4: Loan Repaid
+
+    User5 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User5: Enrolled in Course
+
+    User5 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User5: Test Created
+
+    User5 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User5: Test Verified
+
+    User5 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User5: Task Created
+
+    User5 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User5: Task Verified
+
+    User5 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User5: Exam Created
+
+    User5 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User5: Exam Verified
+
+    User5 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User5: Asset Registered
+
+    User5 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User5: Asset Rented
+
+    User5 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User5: Service Registered
+
+    User5 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User5: Service Booked
+
+    User5 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User5: VertCoin Lent
+
+    User5 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User5: Loan Created
+
+    User5 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User5: Loan Repaid
+
+    User6 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User6: Enrolled in Course
+
+    User6 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User6: Test Created
+
+    User6 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User6: Test Verified
+
+    User6 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User6: Task Created
+
+    User6 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User6: Task Verified
+
+    User6 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User6: Exam Created
+
+    User6 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User6: Exam Verified
+
+    User6 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User6: Asset Registered
+
+    User6 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User6: Asset Rented
+
+    User6 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User6: Service Registered
+
+    User6 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User6: Service Booked
+
+    User6 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User6: VertCoin Lent
+
+    User6 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User6: Loan Created
+
+    User6 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User6: Loan Repaid
+
+    User7 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User7: Enrolled in Course
+
+    User7 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User7: Test Created
+
+    User7 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User7: Test Verified
+
+    User7 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User7: Task Created
+
+    User7 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User7: Task Verified
+
+    User7 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User7: Exam Created
+
+    User7 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User7: Exam Verified
+
+    User7 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User7: Asset Registered
+
+    User7 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User7: Asset Rented
+
+    User7 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User7: Service Registered
+
+    User7 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User7: Service Booked
+
+    User7 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User7: VertCoin Lent
+
+    User7 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User7: Loan Created
+
+    User7 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User7: Loan Repaid
+
+    User8 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User8: Enrolled in Course
+
+    User8 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User8: Test Created
+
+    User8 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User8: Test Verified
+
+    User8 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User8: Task Created
+
+    User8 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User8: Task Verified
+
+    User8 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User8: Exam Created
+
+    User8 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User8: Exam Verified
+
+    User8 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User8: Asset Registered
+
+    User8 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User8: Asset Rented
+
+    User8 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User8: Service Registered
+
+    User8 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User8: Service Booked
+
+    User8 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User8: VertCoin Lent
+
+    User8 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User8: Loan Created
+
+    User8 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User8: Loan Repaid
+
+    User9 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User9: Enrolled in Course
+
+    User9 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User9: Test Created
+
+    User9 ->> CourseNFT: Verify Test
+    Note over CourseNFT: Test verification process
+    CourseNFT ->> User9: Test Verified
+
+    User9 ->> CourseNFT: Create Task
+    Note over CourseNFT: Task creation process
+    CourseNFT ->> User9: Task Created
+
+    User9 ->> CourseNFT: Verify Task
+    Note over CourseNFT: Task verification process
+    CourseNFT ->> User9: Task Verified
+
+    User9 ->> CourseNFT: Create Exam
+    Note over CourseNFT: Exam creation process
+    CourseNFT ->> User9: Exam Created
+
+    User9 ->> CourseNFT: Verify Exam
+    Note over CourseNFT: Exam verification process
+    CourseNFT ->> User9: Exam Verified
+
+    User9 ->> AssetNFT: Register Asset
+    Note over AssetNFT: Asset registration process
+    AssetNFT ->> User9: Asset Registered
+
+    User9 ->> AssetNFT: Rent Asset
+    Note over AssetNFT: Asset rental process
+    AssetNFT ->> User9: Asset Rented
+
+    User9 ->> ServiceNFT: Register Service
+    Note over ServiceNFT: Service registration process
+    ServiceNFT ->> User9: Service Registered
+
+    User9 ->> ServiceNFT: Book Service
+    Note over ServiceNFT: Service booking process
+    ServiceNFT ->> User9: Service Booked
+
+    User9 ->> VertCoin: Lend VertCoin
+    Note over VertCoin: VertCoin lending process
+    VertCoin ->> User9: VertCoin Lent
+
+    User9 ->> VertCoin: Create Loan
+    Note over VertCoin: Loan creation process
+    VertCoin ->> User9: Loan Created
+
+    User9 ->> VertCoin: Repay Loan
+    Note over VertCoin: Loan repayment process
+    VertCoin ->> User9: Loan Repaid
+
+    User10 ->> CourseNFT: Enroll in Course
+    Note over CourseNFT: Enrollment process
+    CourseNFT ->> User10: Enrolled in Course
+
+    User10 ->> CourseNFT: Create Test
+    Note over CourseNFT: Test creation process
+    CourseNFT ->> User10: Test Created
